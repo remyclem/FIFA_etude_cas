@@ -3,18 +3,18 @@ channels:
   - conda-forge
 dependencies:
   - python
-  - numpy
-  - tensorflow
   - graphviz
   - pip:
+    - numpy
+    - pandas
+    - keras==2.3.1
+    - tensorflow==1.14.0
     - nbgitpuller
     - sphinx-gallery
-    - pandas
     - xgboost
     - matplotlib
     - plotly
     - sklearn
     - scipy
-    - keras
     - pydot
     - jupyter-tensorboard
