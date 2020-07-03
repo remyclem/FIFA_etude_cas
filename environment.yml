@@ -17,4 +17,4 @@ dependencies:
     - sklearn
     - scipy
     - pydot
-    - jupyter-tensorboard
+    - jupyter_tensorboard
