@@ -2,7 +2,7 @@ name: example-environment
 channels:
   - conda-forge
 dependencies:
-  - python
+  - python3.7
   - graphviz
   - pip:
     - numpy
@@ -17,4 +17,4 @@ dependencies:
     - sklearn
     - scipy
     - pydot
-    - jupyter_tensorboard
+    - jupyter-tensorboard
