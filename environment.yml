@@ -2,14 +2,14 @@ name: example-environment
 channels:
   - conda-forge
 dependencies:
-  - python=3.7
+  - python=3.6
   - graphviz
   - pip
   - pip:
     - numpy
     - pandas
     - keras==2.3.1
-    - tensorflow
+    - tensorflow==2.0
     - nbgitpuller
     - sphinx-gallery
     - xgboost
